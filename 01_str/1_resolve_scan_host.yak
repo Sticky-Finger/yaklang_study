@@ -1,0 +1,6 @@
+input = `192.168.3.97,127.0.0.1:8787`
+
+results = str.ParseStringToHosts(input)~
+for result in results  {
+  println(result)
+}
